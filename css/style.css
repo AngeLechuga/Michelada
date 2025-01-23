@@ -1,0 +1,66 @@
+/*========================================================
+                    Custom propierties 
+==========================================================*/
+
+:root {
+    /* colores */
+    --primero: #FFC107;
+    --segundo: #FF3D00;
+    --tercero : #7ED321;
+    --cuarto: #00BCD4;
+    --quinto: #FFFFFF;
+    --negro: #212121;
+
+    /* Fuentes */
+    --fuentePrincipal : "Noto Sans", serif;
+}
+
+/*========================================================
+                        Globales 
+==========================================================*/
+
+html {
+    box-sizing: border-box; /* Box model */
+    font-size: 62.5%; /* 1 REM = 10px */
+ 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    background-color: var(--quinto);
+    font-size: 1.6rem; /* Tamaño fuente */
+    line-height: 1.5; /* Interlineado */
+}
+
+main {
+    margin: 2rem;
+}
+
+p {
+    font-size: 2rem; /* Tamaño de letra para * parrafos */
+    font-family: var(--fuentePrincipal); /* Fuente para * parrafos */
+    color: var(--negro) /* Color para  * parrafos */
+}
+
+a {
+    text-decoration: none; /* Quitar estilo de enlaces por defecto */
+}
+
+img {
+    width: 100%;
+}
+
+h1,h2, h3 {
+    /* Estilo general de todos los encabezados */
+    text-align: center;
+    color: var(--negro);
+    font-family: var(--fuentePrincipal)
+}
+
+/* Tamaños de fuente para cada encabezado */
+h1 {font-size: 4rem;}
+h2 {font-size: 3.2rem;}
+h3 {font-size: 2.4rem;}
