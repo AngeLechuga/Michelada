@@ -74,6 +74,9 @@ h3 {font-size: 3rem;}
     color: var(--segundo);
 }
 
+/*========================================================
+                Barra de navegación
+==========================================================*/
 .navContainer {
     background-color: var(--cuarto);
 }
@@ -93,7 +96,6 @@ h3 {font-size: 3rem;}
     }
 }
 
-/* Estilos de links de navegación */
 .navbar a {
     color: #ffffff;
     text-decoration: none;
@@ -106,4 +108,60 @@ h3 {font-size: 3rem;}
 .navbar a:hover{
 background-color: var(--quinto);
 color: #212121;
+}
+
+
+/*========================================================
+                    Presentación 
+==========================================================*/
+.bienvenido {
+    background-image: url(../img/michePortada.jpg);
+    background-repeat: no-repeat; /* para que no se repita la imagen en pantllas grandes */
+    background-size: cover; /* toma el tamaño de la pantalla */
+    height: 410px;
+    padding: 20px;
+    position: relative;
+}
+
+.bienvenido p,
+.bienvenido h2,
+.bienvenido h3 {
+    color: var(--quinto);
+}
+
+.bienvenido__container--fondo {
+    position: absolute;
+    background-color: rgb(0  0 0 / 40%);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bienvenido__button {
+    background-color: var(--primero);
+    color: var(--negro);
+    border-radius: .5rem;
+    text-decoration: none;
+    font-weight: 400;
+    width: 15rem;
+    text-align: center;
+    border: none; /* para quitar el borde del botón del formulario */
+}
+
+.compra {
+
+}
+
+/*========================================================
+                    Footer 
+==========================================================*/
+
+.footer {
+    text-align: center;
 }
