@@ -71,7 +71,8 @@ h3 {font-size: 3rem;}
 
 
 .title span {
-    color: var(--segundo);
+/*     color: var(--segundo);
+ */    font-weight: lighter;
 }
 
 /*========================================================
