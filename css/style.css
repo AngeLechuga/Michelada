@@ -37,6 +37,7 @@ body {
 
 main {
     margin: 2rem;
+    justify-content: center;
 }
 
 p {
@@ -106,7 +107,6 @@ h3 {font-size: 3rem;}
     font-size: 1.5rem;
     font-weight: 700;
     padding: .8rem;
-    border-radius: .8rem;
 }
 
 .barra__navbar a:hover {
@@ -160,6 +160,28 @@ h3 {font-size: 3rem;}
 .compra ul {
     list-style-type: none;
 }
+
+/*========================================================
+                        Menú 
+==========================================================*/
+.menu {
+    background-image: url(../img/michePortada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 80rem;
+    height: 50rem;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.menu__contenido {
+    background-color: #FFFFFF;
+    max-width: 60rem;
+    height: 30rem;
+    margin: 3rem auto;
+    border-radius: 5px;
+}
+
 
 /*========================================================
                     Footer 
