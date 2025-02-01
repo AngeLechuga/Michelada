@@ -12,7 +12,7 @@
     --negro: #212121;
 
     /* Fuentes */
-    --fuentePrincipal : "Noto Sans", serif;
+    --fuentePrincipal : "Poppins", serif;
 }
 
 /*========================================================
@@ -89,15 +89,15 @@ h3 {font-size: 3rem;}
 }
 
 /* Barra de navegación responsiva para dispositivos pequeños*/
-@media (max-width: 480px){
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-evenly; /* alinear horizontal */
+        }
 }
 
 .navbar a {
-    color: #ffffff;
+    color: var(--negro);
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 700;
