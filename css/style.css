@@ -152,7 +152,11 @@ text-decoration: underline;
 }
 
 .compra {
+    text-align: center;
+}
 
+.compra ul {
+    list-style-type: none;
 }
 
 /*========================================================
@@ -160,5 +164,9 @@ text-decoration: underline;
 ==========================================================*/
 
 .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
+    padding: 10px 0;
     text-align: center;
 }
