@@ -94,10 +94,15 @@ h3 {font-size: 3rem;}
 }
 
 /* Barra de navegación responsiva para dispositivos pequeños*/
-@media (min-width: 768px) {
+@media (max-width: 480px) {
     .barra {
         display: flex;
         justify-content: space-evenly; /* alinear horizontal */
+        flex-direction: column;
+        }
+    
+        .barra__navbar {
+            gap: 0;
         }
 }
 
@@ -245,7 +250,7 @@ h3 {font-size: 3rem;}
 .carrito__botones {
     display: flex;
     align-items: center;
-    gap: 10rem;
+    gap: 5rem;
     margin-top: 4rem;
 }
 
@@ -278,9 +283,6 @@ h3 {font-size: 3rem;}
 ==========================================================*/
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%; /* Asegura que el footer ocupe todo el ancho */
-    padding: 10px 0;
     text-align: center;
+    margin-top: 5rem;
 }
