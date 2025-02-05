@@ -93,11 +93,14 @@ h3 {font-size: 3rem;}
     gap: 2rem;
 }
 
+.barra {
+    display: flex;
+    justify-content: space-evenly ;
+}
+
 /* Barra de navegación responsiva para dispositivos pequeños*/
 @media (max-width: 480px) {
     .barra {
-        display: flex;
-        justify-content: space-evenly; /* alinear horizontal */
         flex-direction: column;
         }
     
@@ -235,7 +238,7 @@ h3 {font-size: 3rem;}
 .carrito_contenido-boton {
     color: var(--quinto);
     font-family: var(--fuentePrincipal);
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding-top: 5rem;
     text-decoration: underline;
 }
