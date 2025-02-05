@@ -184,6 +184,79 @@ h3 {font-size: 3rem;}
     border-radius: 5px;
 }
 
+/*========================================================
+                        Carrito 
+==========================================================*/
+.carrito {
+    background-color: #b9b4b4;
+    max-width: 60rem;
+    height: 50rem;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.carrito p {
+    font-size: 1.01rem;
+    padding-top: 1.5rem;
+}
+
+
+.carrito_contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.carrito_contenido-boton {
+    color: var(--quinto);
+    font-family: var(--fuentePrincipal);
+    font-size: 1rem;
+    padding-top: 5rem;
+    text-decoration: underline;
+}
+
+.carrito_contenido-imagen {
+    height: 10rem;
+    width: 10rem;
+    padding: 2rem 0;
+    border-radius: 5px;
+}
+
+.carrito__botones {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 4rem;
+}
+
+.carrito__botones__comprar,
+.carrito__botones__eliminar {
+    color: var(--quinto);
+}
+
+.carrito__botones__comprar {
+    padding: 1rem 6rem;
+    background-color: #4f4d4d;
+    border-radius: 5px;
+    font-family: var(--fuentePrincipal);
+}
+
+.carrito__botones__comprar:hover {
+    background-color: var(--quinto);
+    color: var(--negro);
+}
+
+.carrito__botones__eliminar {
+    padding: 2rem 1rem;
+    background-color: #df4f4f;
+    border-radius: 50%;
+    font-family: var(--fuentePrincipal);
+}
 
 /*========================================================
                     Footer 
