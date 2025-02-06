@@ -223,7 +223,7 @@ h3 {font-size: 3rem;}
 
 
 .carrito p {
-    font-size: 1.01rem;
+    font-size: 1.07rem;
     padding-top: 1.5rem;
 }
 
@@ -254,7 +254,7 @@ h3 {font-size: 3rem;}
     display: flex;
     align-items: center;
     gap: 5rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .carrito__botones__comprar,
