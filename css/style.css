@@ -377,10 +377,23 @@ h3 {font-size: 3rem;}
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .nosotros p {
     text-align: center;
+}
+
+.nosotros__imagen {
+    width: 45rem;
+    border-radius: 10px;
+}
+
+@media (max-width: 480px) {
+    .nosotros__imagen {
+        width: 30rem;
+        border-radius: 10px;
+    }
 }
 /*========================================================
                     Footer 
