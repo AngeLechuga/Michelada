@@ -244,10 +244,10 @@ h3 {font-size: 3rem;}
 }
 
 .carrito_contenido-imagen {
-    height: 10rem;
-    width: 10rem;
+    height: 12rem;
+    width: 12rem;
     padding: 2rem 0;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .carrito__botones {
@@ -301,6 +301,19 @@ h3 {font-size: 3rem;}
     background-color: #000000;
     padding: 1rem;
     border-radius: 50%;
+}
+
+/*========================================================
+                        Nosotros
+==========================================================*/
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nosotros p {
+    text-align: center;
 }
 /*========================================================
                     Footer 
