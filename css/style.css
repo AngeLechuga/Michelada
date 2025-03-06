@@ -161,6 +161,11 @@ h3 {font-size: 3rem;}
     border: none; /* para quitar el borde del botón del formulario */
 }
 
+.carousel_micheladas {
+    width: 70%;
+    margin: auto;
+}
+
 .compra {
     text-align: center;
 }
