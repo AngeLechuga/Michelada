@@ -60,13 +60,13 @@ h1, h2, h3 {
     /* Estilo general de todos los encabezados */
     text-align: center;
     color: var(--negro);
-    font-family: var(--fuentePrincipal)
+    font-family: var(--fuentePrincipal);
+    font-weight: bolder;
 }
 
 /* Tamaños de fuente para cada encabezado */
 h1 {
     font-size: 4.8rem;
-    font-weight: bolder;
 }
 h2 {
     font-size: 3.8rem;
@@ -417,7 +417,7 @@ h3 {
 }
 
 .nosotros__imagen {
-    width: 45rem;
+    width: 80rem;
     border-radius: 10px;
 }
 
