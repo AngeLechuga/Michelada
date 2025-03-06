@@ -289,6 +289,7 @@ h3 {
 /* Botones bootstrap personalizados */
 .custom-btn {
     width: 8rem;
+    color: var(--negro);
 }
 
 /*========================================================
