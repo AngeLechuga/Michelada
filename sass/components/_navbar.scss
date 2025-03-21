@@ -1,0 +1,62 @@
+/*========================================================
+                Barra de navegación
+==========================================================*/
+.barra {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-evenly ;
+}
+
+.navbar-nav {
+    font-family: var(--fuentePrincipal);
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.barra__navbar {
+    a {
+        color: var(--negro);
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding: .8rem;
+    }
+
+    a:hover {
+        color: var(--quinto);
+    }
+}
+
+.navContainer {
+    background-color: var(--cuarto);
+}
+
+/* Barra de navegación responsiva para dispositivos pequeños*/
+@media (max-width: 480px) {
+
+    .barra {
+        flex-direction: column;
+        }
+    
+        .barra__navbar {
+            gap: 0;
+        }
+
+    .navbar-nav {
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        width: 10rem;
+        height: 5rem;
+    }
+
+    .title {
+        margin-bottom: 3rem;
+    }
+}
+
+
+
+

@@ -1,0 +1,44 @@
+/*========================================================
+                    Home 
+==========================================================*/
+.bienvenido {
+    padding: 0 0 3rem 0;
+
+    p,h2,h3 {
+    color: var(--negro);
+    text-align: center;
+}
+}
+
+.bienvenido__container--fondo {
+    position: absolute;
+    background-color: rgb(0  0 0 / 40%);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bienvenido__button {
+    background-color: var(--primero);
+    color: var(--negro);
+    border-radius: .5rem;
+    text-decoration: none;
+    font-weight: 400;
+    width: 15rem;
+    text-align: center;
+    border: none; /* para quitar el borde del botón del formulario */
+}
+
+.compra {
+    text-align: center;
+
+    ul {
+        list-style-type: none;
+    }
+}

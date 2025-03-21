@@ -1,0 +1,82 @@
+/*========================================================
+                        Menú 
+==========================================================*/
+.menu {
+    background-image: url(../img/michePortada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 80rem;
+    height: 50rem;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.menu__contenido {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 80%;
+    height: 80%;
+    margin: 2rem auto;
+    border-radius: 5px;
+}
+
+.menu__contenido h2 {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 480px) {
+
+    .menu__contenido-items{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        row-gap: 1.5rem;
+    }
+
+    .menu__contenido-items p {
+        font-size: 1.3rem;
+        justify-content: center;
+        padding: 5px 10px;  
+    }
+
+    .menu__contenido-items a {
+        font-size: 1.3rem;
+    }
+
+    .item {
+        margin: 0;
+    }
+}
+
+.menu__contenido-items{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+
+    p {
+        text-align: center;
+        padding: 5px 10px;  
+    }
+
+    a {
+        font-family: var(--fuentePrincipal);
+        color: var(--negro);
+        display: inline-block;
+        padding: 5px 10px;      
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: var(--segundo);
+    }
+}
+
+.item {
+    margin: 0;
+}
+
+/* Botones bootstrap personalizados */
+.custom-btn {
+    width: 8rem;
+    color: var(--negro);
+}

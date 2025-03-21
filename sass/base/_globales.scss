@@ -1,0 +1,68 @@
+/*========================================================
+                        Globales 
+==========================================================*/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #e7e5d7;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+main {
+    margin: 2rem;
+    justify-content: center;
+}
+
+p {
+    font-size: 2rem;
+    font-family: var(--fuentePrincipal);
+    color: var(--negro);
+    margin: 1rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    margin: 1rem;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: var(--negro);
+    font-family: var(--fuentePrincipal);
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 3.8rem;
+    margin: 2rem 0 2rem 0;
+}
+
+h3 {
+    font-size: 3rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.title {
+    font-style: italic;
+}
+
+.title span {
+ font-weight: lighter;
+ font-style: normal;
+}
