@@ -1,8 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- METAS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conoce nuestro menú, tenemos una variedad de bebidas a base de cerveza para refrescarte, selecciona tus bebidas favoritas y ordena." >
+    <meta name="geo.region" content="MX-09">
+    <meta name="geo.placename" content="Ciudad de México">
+
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Menu",
+          "name": "Menú de MicheApp",
+          "description": "Menú con una selección de bebidas a base de cerveza.",
+          "menuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "Bebidas",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "name": "Michelada Clásica",
+                  "description": "Cerveza con sal y limón.",
+                  "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "MXN",
+                    "price": "100.00"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Michelada Cubana",
+                  "description": "Cerveza con sal, limón y mix de salsas negras.",
+                  "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "MXN",
+                    "price": "100.00"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Michelada Clamachela",
+                  "description": "Cerveza con sal, limón y jugo de tomate, mix de salsas negras con un toque picante.",
+                  "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "MXN",
+                    "price": "120.00"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Michelada Volteada",
+                  "description": "Cerveza y Caribe cooler de sabor (a elegir), con jarabe de frutas.",
+                  "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "MXN",
+                    "price": "130.00"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Michelada Conga",
+                  "description": "Mezcla de cerveza con los ingredientes clásicos de la Conga (naranja, limón y granadina).",
+                  "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "MXN",
+                    "price": "130.00"
+                  }
+                },
+                {
+                  "@type": "MenuItem",
+                  "name": "Michelada de sabores",
+                  "description": "Mezcla de cerveza con jarabe de frutas (a elegir).",
+                  "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "MXN",
+                    "price": "110.00"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+    </script>
+      
+    <!-- LINKS -->
     <link rel="stylesheet" href="../css/nomralize.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- añadiendo bootstrap -->
@@ -52,17 +136,17 @@
         <div class="menu__contenido">
             <h2>Menú</h2>
             <div class="menu__contenido-items">
-                <p class="item">Bebida 1 ..........$100 MXN</p>
+                <p class="item">Clásica ..........$100 MXN</p>
                 <button type="button" class="btn btn-outline-secondary custom-btn">Agregar</button>
-                <p class="item">Bebida 2 ..........$100 MXN</p>
+                <p class="item">Cubana ..........$100 MXN</p>
                 <button type="button" class="btn btn-outline-secondary custom-btn">Agregar</button>
-                <p class="item">Bebida 3 ..........$100 MXN</p>
+                <p class="item">Clamachela ..........$120 MXN</p>
                 <button type="button" class="btn btn-outline-secondary custom-btn">Agregar</button>
-                <p class="item">Bebida 4 ..........$100 MXN</p>
+                <p class="item">Volteada ..........$130 MXN</p>
                 <button type="button" class="btn btn-outline-secondary custom-btn">Agregar</button>
-                <p class="item">Bebida 5 ..........$100 MXN</p>
+                <p class="item">Conga ..........$130 MXN</p>
                 <button type="button" class="btn btn-outline-secondary custom-btn">Agregar</button>
-                <p class="item">Bebida 6 ..........$100 MXN</p>
+                <p class="item">De sabores ..........$110 MXN</p>
                 <button type="button" class="btn btn-outline-secondary custom-btn">Agregar</button>
             </div>
         </div>
