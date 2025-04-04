@@ -273,6 +273,15 @@ h3 {
   list-style-type: none;
 }
 
+.btn-custom {
+  background-color: #98b9ea; /* Cambiar el color de fondo (puedes usar cualquier color) */
+  color: var(--negro);
+  font-size: 1.5rem;
+  padding: 1.2rem 3rem;
+  border-style: none;
+  border-radius: 0.5rem;
+}
+
 /*========================================================
                         Menú 
 ==========================================================*/
