@@ -344,11 +344,11 @@ h3 {
                         Carrito 
 ==========================================================*/
 .carrito {
-  background-color: #b9b4b4;
+  background-color: #e2dad8;
   max-width: 60rem;
   height: auto;
   margin: 0 auto;
-  border-radius: 5px;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -377,14 +377,14 @@ h3 {
   height: 12rem;
   width: 12rem;
   padding: 1rem 0;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .carrito__botones {
   display: flex;
   align-items: center;
   gap: 5rem;
-  margin: 1rem 0;
+  margin: 1rem 0 2rem 0;
 }
 
 /* Ajuste a dispositivos pequeños */
