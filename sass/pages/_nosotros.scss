@@ -1,3 +1,17 @@
 /*========================================================
                         Nosotros 
 ==========================================================*/
+.nosotros__imagen {
+    display: flex;
+    justify-content: center;
+}
+.imagen {
+    border-radius: 1rem;
+    width: 50%;
+}
+
+@media (max-width: 480px) {
+    .imagen {
+        width: 100%;
+    }
+}
