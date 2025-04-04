@@ -304,7 +304,7 @@ h3 {
 /* Ajuste a dispositivos pequeños */
 @media (max-width: 480px) {
   .carrito p {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .carrito_contenido-boton {
     color: var(--quinto);
